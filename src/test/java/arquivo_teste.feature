@@ -1,27 +1,26 @@
-#Author:icaroiyusuka@gmail.com
-#Keywords Summary:
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#"""(Doc String)
-#| (Data Tables)
-#@ (Tags/Labels): To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
 Feature: Cliente faz saque de dinheiro Como um cliente,
   eu gostaria de sacar dinheiro em caixa eletrônico,
-  para que eu não tenha que esperar em uma fila do banco.
+  para que eu nao tenha que esperar em uma fila do banco.
 
-  @tag1
-  Scenario: Cliente especial com saldo negativo
-    Given um cliente especial com saldo atual de -200 reais
-    When for solicitar um saque no valor de 100 reias
+  Scenario Outline: Cliente especial com saldo negativo
+    Given um cliente especial com saldo atual de <int1> reais
+    When for solicitar um saque no valor de <int11> reias
+    Then deve efetuar o saque e atualizar o saldo da conta para <int12> reais
+    And check more outcomes
+    Examples:
+      | int1 | int11 | int12 |
+      | -200 | 100   | -300  |
+
+
+
+  Scenario Outline: Cliente comum com saldo negativo
+    Given um cliente comum com saldo atual de <int1> reais
+    When solicitar um saque de <int11> reais
+    Then nao deve efetuar o saque e deve retornar a mensagem Saldo insulficiente
+    Examples:
+      | int1 | int11 |
+      | -200 | 200   |
+
+
+
+
