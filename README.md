@@ -11,3 +11,20 @@ Mas antes instalar o plugin:
 
 Após instalar deve reiniciar o IDE, e pronto esta configurado para utilizar.
 
+## Detalhes do Testes
+Para iniciar isso necessita de uma requisição que foi utilizada, a historia de conta bancaria, para utilizar o "cucumber", deve iniciar uma nova pasta com contendo ".feature":
+![image](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/24ba9840-11f3-4e1b-87e6-870a26ee3275)
+
+Dentro dessa pasta da para descrever os requisitos:
+![image](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/109f0205-5ae2-4ac1-9c0a-3b540994d350)
+
+Assim executa os requisitos, desse dois cenarios, sendo um deles para clientes especiais e outro para clientes comuns:
+
+## clientes Especiais:
+Primeira parte 
+![C1](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/5d3227de-950d-4ba1-80b7-ec92da236dc6)
+
+Segunda parte
+
+![C2](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/9e4354fb-e05f-4649-a6a8-352b3563a78f)
+
