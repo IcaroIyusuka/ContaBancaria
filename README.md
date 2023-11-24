@@ -28,3 +28,12 @@ Segunda parte
 
 ![C2](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/9e4354fb-e05f-4649-a6a8-352b3563a78f)
 
+## Cliente Comum
+Primeira Parte 
+![Ccenario2](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/61f6e63d-bf5e-47a9-8179-7ab8ea052cbe)
+
+Segunda Parte 
+
+![Cenario2c2](https://github.com/IcaroIyusuka/ContaBancaria/assets/115050400/e1716228-1c79-409c-9023-5a32e97f3d80)
+
+
